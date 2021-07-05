@@ -1,0 +1,207 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.container
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.row
+{
+    display: flex;
+}
+.orange
+{
+    color: #FB8C47;
+}
+
+/* food network star */
+.col-6 {
+    width: 49%;
+}
+
+.food_network_left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 549px;
+}
+
+.food_network_left p {
+    color: #828282;
+    font-size: 1.2em;
+}
+
+.food_network_left h1 {
+    font-size: 4em;
+    font-weight: 900;
+    color: #575757;
+    margin-bottom: 25px;
+}
+
+.food_network_left a {
+     display: inline-block;
+     color: #fff;
+     background: linear-gradient(#FB9149,#FD5633);
+     width: 200px;
+     padding: 20px;
+     font-size: 1.2em;
+     text-align: center;
+     border-radius: 50px;
+     margin-top: 25px;
+}
+/* food network end */
+
+/* about start */
+.about_me
+{
+    padding-top: 35px;
+    background: url(images/shapes/Frame\ 58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.food_network_right img {
+    width: 100%;
+    background-position: top center;
+}
+
+.about_img img {
+    width: 65%;
+    height: 700px;
+}
+
+.about_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+}
+
+.about_content a {
+    display: inline-block;
+    color: #fff;
+    background: linear-gradient(#FB9149,#FD5633);
+    width: 200px;
+    padding: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
+.about_content h1 {
+    color: #707070;
+    font-size: 3em;
+    margin-bottom: 25px;
+}
+
+.about_content p {
+    font-size: 20px;
+    color: #111;
+}
+/* about end  */
+
+
+/* my recipies */
+.col-4 {
+    width: 33.3%;
+    margin-right: 20px;
+}
+
+.recipie_item img {
+    width: 100%;
+    height: 330px;
+    margin-bottom: 20px;
+}
+
+.recipie_item {
+    box-shadow: 0px 10px 30px rgba(128, 128, 128, 0.26) ;
+    padding: 30px;
+    border-radius: 30px;
+}
+.recipie_item p {
+    margin-top: 15px;
+}
+.recipie_item p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.recipie_item h1 {
+    font-size: 2em;
+}
+.recipie_item p {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.recipie_item h1 {
+    font-size: 2em;
+}
+
+.r_title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.r_title h1 {
+    color: #6E6E6E;
+    font-size: 3em;
+}
+
+.my_recipies {
+    padding: 50px 0;
+}
+
+.r_title p {
+    font-size: 20px;
+}
+/* my recipies */
+
+
+.shadow {
+    box-shadow: 0px 10px 30px rgb(128 128 128 / 26%);
+    padding: 35px;
+    border-radius: 25px;
+}
+/*  follower_section */
+.youtube {
+    text-align: center;
+}
+
+.youtube h1 {
+    font-size: 3em;
+}
+
+.youtube p {
+    font-size: 1.2em;
+}
+
+.follwer_section {
+    padding: 20px 0;
+}
+footer {
+    background: #0B0D17;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+footer p {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+footer h1 {
+    color: #5B5B5B;
+    font-size: 2.6em;
+}
+/*  follower_section */
