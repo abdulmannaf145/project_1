@@ -230,6 +230,64 @@ section.food_network {
     padding: 35px;
     border-radius: 25px;
 }
+
+/* contact us start  */
+.contact_section {
+    padding: 50px 0;
+}
+.contact_section h1
+{
+    margin-bottom: 25px;
+    text-align: center;
+    color: #6E6E6E;
+    font-size: 3em;
+}
+.contact_map iframe {
+    border-radius: 10px;
+}
+.contact_form {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.inputBox {
+    width: 100%;
+    margin-bottom: 20px;
+    resize: none;
+    box-shadow: 0 10px 30px #8080801f;
+}
+
+.inputBox input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px #80808036;
+}
+
+.inputBox textarea {
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 230px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.contact_form input[type="submit"] {
+    border: none;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: 700;
+    background: linear-gradient(#FB9149,#FD5633);
+    color: #fff;
+}
+/* contact us  end  */
+
 /*  follower_section */
 .youtube {
     text-align: center;
