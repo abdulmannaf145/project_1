@@ -21,7 +21,65 @@
     color: #FB8C47;
 }
 
+/* header start */
+header
+{
+    box-shadow: 0 10px 35px rgba(128, 128, 128, 0.144);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+}
+section.food_network {
+    padding-top: 80px;
+}
+
+.header_logo {
+    width: 25%;
+}
+
+.header_menu {
+    width: 65%;
+}
+
+.header_login {
+    width: 30%;
+    margin: -3px 0;
+}
+.header_login .order_btn
+{
+    background: linear-gradient(#FB9149,#FD5633);
+    display: inline-block;
+    padding: 10px 29px;
+    color: #fff;
+    border-radius: 30px;
+}
+.header_logo a img {
+    width: 70%;
+}
+
+.header_menu ul li a {
+    margin-top: 5px;
+    display: inline-block;
+    margin-right: 20px;
+    color: #111;
+    font-size: 20px;
+}
+
+.header_login a {
+    display: inline-block;
+    color: #111;
+    margin-right: 10px;
+    font-size: 20px;
+}
+/* header end  */
+
 /* food network star */
+.food_network {
+    padding-top: 80px;
+}
 .col-6 {
     width: 49%;
 }
